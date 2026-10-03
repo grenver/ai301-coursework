@@ -19,7 +19,7 @@ grenver
 
 **Plan comment**
 
-TODO-PASTE-COMMENT-PERMALINK-HERE
+https://github.com/codepath/pathreview-ai301-fa26-s3/issues/56#issuecomment-5972586222
 
 Plan for #56, from my repro above (`plain doc chunks: 0`, `headed doc chunks: 1`, `test_document_with_no_headings` XFAIL).
 
