@@ -55,10 +55,9 @@ happened; these entries are the toolkit's own timeline.
 All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
-**Unit 5: [one line on the tool work]**
+**Unit 5: Built issue-scout and patched its claim check after the first scan**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+I turned my unit-1 issue-select skill into issue-scout and wrote a search strategy with three `gh search issues` queries for Python good-first-issues (bugs, docs, and older issues that already have a reply), plus ranking rules. The first scan accepted 4 of 5 issues, but 3 of them already had a comment asking to take them, and one had already been fixed by a merged PR that never named the issue. My rubric's `available` check only failed on "actively working" comments. I changed it to also fail on requests to take the issue and on merged fixes, and a re-grade of two of those issues rejected both. I also flipped my ranking to fewest comments first and switched the label filter to substring matching so `stage/stalled` and bounty labels get dropped. That surfaced a new problem I haven't fixed yet: the top results are now issues filed minutes ago in brand-new one-person repos.
 
 **Unit 6: [one line on the tool work]**
 
